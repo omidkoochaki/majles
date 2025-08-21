@@ -5,7 +5,12 @@
 <title>تقسیم‌بندی حوزه‌های انتخاباتی</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 p-6 font-sans">
+<style>
+  .rtl {
+    direction: rtl;
+  }
+</style>
+<body class="bg-gray-100 p-6 font-sans rtl text-right">
 
 <h1 class="text-3xl font-bold mb-6 text-center text-gray-800">تقسیم‌بندی حوزه‌های انتخاباتی</h1>
 
@@ -15,6 +20,37 @@
   <div class="flex justify-end mb-4">
     <button onclick="showSettings()" class="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600 transition">تنظیمات</button>
   </div>
+
+    <!-- توضیحات -->
+  <div class="bg-white p-6 rounded-xl shadow-md mb-6 leading-8 text-gray-700">
+    <p class="mb-3">
+      به منظور ارائه راهکار کارشناسی جهت تصمیم‌گیری در خصوص تخصیص نماینده جدید به استان خراسان جنوبی، 
+      شاخص مشغله‌ی نماینده تعریف شده است.
+    </p>
+    <p class="mb-3">
+      این شاخص به صورت ترکیبی از چهار عامل <span class="font-semibold text-gray-800">جمعیت</span>، 
+      <span class="font-semibold text-gray-800">وسعت</span>، 
+      <span class="font-semibold text-gray-800">بهره‌مندی از امکانات استان</span> 
+      و <span class="font-semibold text-gray-800">تعداد شهرستان‌های هر حوزه (تنوع فرهنگی-مدیریتی)</span> تعریف شده است.
+    </p>
+    <p class="mb-3">
+      هر چه شاخص مشغله‌ی نماینده در حوزه‌ای بالاتر باشد امکان رسیدگی به مسائل آن منطقه توسط نماینده کم‌تر خواهد بود و 
+      بالتبع، وضعیت نماینده در آن حوزه ناعادلانه‌تر خواهد بود.
+    </p>
+    <p class="mb-3">
+      اطلاعات مورد استفاده در محاسبات، از دو منبع اطلاعات منتشر شده در اینترنت و هم‌چنین نظرات خبرگی کارشناسان جمع‌آوری شده است.
+    </p>
+    <p class="mb-3">
+      با استفاده از این نرم افزار می‌توانید ترکیب‌های مختلفی از حوزه‌های انتخاباتی را بچینید و شاخص‌های محاسبه شده را مشاهده کنید.
+    </p>
+    <p class="mb-3">
+      اگر در حوزه‌ای که شما در آن زندگی می‌کنید، شاخص مشغله‌ی نماینده بالاست،
+      به این معنی است که نماینده‌ی شما نمی‌تواند به خوبی به مسائل آن حوزه رسیدگی کند و 
+      این موضوع می‌تواند بر کیفیت زندگی شما تاثیر منفی بگذارد.
+    </p>
+    <p class="mt-6 text-left">با احترام<br>امید کوچکی</p>
+  </div>
+
 
   <div id="step1" class="bg-white p-6 rounded-xl shadow-md">
     <label class="block mb-3 font-semibold text-gray-700">چند تا حوزه انتخاباتی تعریف کنیم؟</label>
